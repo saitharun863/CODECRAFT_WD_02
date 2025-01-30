@@ -1,0 +1,81 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the Stopwatch */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: purple;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px black;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Stopwatch Display */
+.stopwatch {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#startPauseBtn {
+    background: #28a745;
+    color: white;
+}
+
+#resetBtn {
+    background: #dc3545;
+    color: white;
+}
+
+#lapBtn {
+    background: cyan;
+    color: white;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
+
+/* Lap List */
+ul {
+    list-style: none;
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+ul li {
+    background: peru;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    text:black;
+}
