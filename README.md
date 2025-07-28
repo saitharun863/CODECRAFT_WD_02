@@ -1,4 +1,4 @@
-# Task-2-StopWatch
+# StopWatch
 This is a simple Stopwatch web application built using HTML, CSS, and JavaScript. It provides a user-friendly interface to start, stop, and reset a stopwatch with the ability to track time in seconds and milliseconds.
 
 Features
